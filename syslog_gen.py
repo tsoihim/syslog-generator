@@ -21,7 +21,7 @@ that show up in the log messages.
 hostname = "host"
 domain_name = ".example.com"
 tag = ["kernel", "python", "ids", "ips"]
-syslog_level = ["info", "error", "warn", "critical"]
+syslog_level = ["info", "error", "warning", "critical"]
 
 def raw_udp_sender(message, host, port):
     # Stubbed in or later use
